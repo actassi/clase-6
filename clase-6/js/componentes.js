@@ -1,9 +1,10 @@
-export default class Componentes {
-    constructor(parametro) {
-        this.text = parametro;
-        this.image = parametro;
-        this.sound = parametro;
-        this.items = parametro;
+export default class Componente {
+    constructor(dato) { // dato es un texto en el caso del botón, una ruta en el caso de la imagen o del sonido  
+                        //y un conjunto de items en el caso de la lista
+        this.text = dato; 
+        this.image = dato;
+        this.sound = dato;
+        this.items = dato;
     }
 
 
